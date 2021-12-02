@@ -271,15 +271,16 @@ textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.text-window:focus {
+  border: 1px solid var(--accent-color);
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
 .inputs label {
   margin-bottom: 4px;
 }
 
 .modal-title {
-  /* position: absolute;
-  top: 40px;
-  left: 40px; */
-
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -289,10 +290,6 @@ textarea::placeholder {
 }
 
 .deed {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; */
   margin-left: 13px;
   margin-right: 11px;
   margin-top: 20px;
@@ -386,9 +383,6 @@ textarea::placeholder {
 .icon {
   width: 18px;
   height: 18px;
-}
-
-.form-input {
 }
 
 .form-input:focus {
