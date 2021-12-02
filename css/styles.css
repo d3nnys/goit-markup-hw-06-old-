@@ -798,6 +798,7 @@ footer {
 .footer-input:focus {
   border: 1px solid rgba(255, 255, 255, 0.3);
   outline: -webkit-focus-ring-color auto 0px;
+  color: var(--primary-white-color);
 }
 
 .telegram {
